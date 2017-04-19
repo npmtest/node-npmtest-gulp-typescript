@@ -1,7 +1,10 @@
-# test coverage for  [gulp-typescript (v3.1.6)](https://github.com/ivogabe/gulp-typescript)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-typescript.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-typescript) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-typescript.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-typescript)
+# npmtest-gulp-typescript
+
+#### test coverage for  [gulp-typescript (v3.1.6)](https://github.com/ivogabe/gulp-typescript)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-typescript.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-typescript) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-typescript.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-typescript)
+
 #### A typescript compiler for gulp with incremental compilation support.
 
-[![NPM](https://nodei.co/npm/gulp-typescript.png?downloads=true)](https://www.npmjs.com/package/gulp-typescript)
+[![NPM](https://nodei.co/npm/gulp-typescript.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-typescript)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-typescript/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-typescript/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-typescript/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-typescript/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-typescript/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-typescript/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-typescript/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-typescript/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-typescript%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-typescript/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-typescript/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-typescript%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-typescript/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-typescript/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-typescript/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-typescript/build/screenCapture.npmPackageListing.svg)
 
@@ -35,36 +44,28 @@
     },
     "contributors": [
         {
-            "name": "Jesper Jonsson",
-            "email": "jesper.m.jonsson@gmail.com"
+            "name": "Jesper Jonsson"
         },
         {
-            "name": "Shogo Iwano",
-            "email": "shiwano@gmail.com"
+            "name": "Shogo Iwano"
         },
         {
-            "name": "Martin Poelstra",
-            "email": "m.poelstra@spiritit.com"
+            "name": "Martin Poelstra"
         },
         {
-            "name": "Jakub Olek",
-            "email": "bukaj.kelo+github@gmail.com"
+            "name": "Jakub Olek"
         },
         {
-            "name": "Ilan Frumer",
-            "email": "IlanFrumer@gmail.com"
+            "name": "Ilan Frumer"
         },
         {
-            "name": "James Whitney",
-            "email": "james@whitney.io"
+            "name": "James Whitney"
         },
         {
-            "name": "Jaroslaw Zalucki",
-            "email": "mad.jaro@gmail.com"
+            "name": "Jaroslaw Zalucki"
         },
         {
-            "name": "Yui Tanglertsampan",
-            "email": "yuisu@microsoft.com"
+            "name": "Yui Tanglertsampan"
         }
     ],
     "dependencies": {
@@ -113,8 +114,7 @@
     "main": "release/main.js",
     "maintainers": [
         {
-            "name": "ivogabe",
-            "email": "ivogabe@ivogabe.nl"
+            "name": "ivogabe"
         }
     ],
     "name": "gulp-typescript",
@@ -122,7 +122,6 @@
     "peerDependencies": {
         "typescript": "~2.0.3 || >=2.0.0-dev || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ivogabe/gulp-typescript.git"
